@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+:root{
+	--color-crema: #f2eeeb;
+	--color-beige: #d6cfc7;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Italiana", sans-serif;
+}
+
+.navbar{
+	background-color:#fff !important;
+	color: var(--color-beige);
+
+	
+}
+
+#hero img{
+	text-align: center;
+}
+
+.padding-section{
+	padding: 10%;
+}
+
+h2{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+h1{
+	font-size: 80px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+#hero{
+	background-color: #fff;
+	padding: 5%;
+}
+
+h4{
+	text-align: left;
+	font-size:30px;
+	margin: 40px 0;
+}
+h6{
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+p{
+	font-family:  "Alegreya Sans", sans-serif;
+}
+h5{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.socials{
+	margin-top: 20px;
+}
+#contact i{
+	font-size: 24px;
+	color: #000;
+}
+footer{
+	padding: 1%;
+	text-align: left;
+	background-color: var(--color-crema);
+}
+.hipervinculos{
+	color: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	margin-top: 30px;
+}
+
+#about-me{
+	padding: 10% 10%;
+	text-align: center;
+	background-color: var(--color-crema);
+}
+
+#services{
+	background-color: #fff;
+	color: #000;
+}
+
+.btn-contact{
+  background-color: var(--color-crema);
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #000;
+  padding: 10px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+	width:200px;
+}
+
+.computer{
+	text-align: center;
+	margin-top: 30px;
+}
+#services p{
+	text-align: justify;
+}
+
+#services i{
+	color: #000;
+	font-size: 24px;
+}
+
+#portfolio{
+	background-color: var(--color-crema);
+}
